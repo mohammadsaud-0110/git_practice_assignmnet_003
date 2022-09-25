@@ -1,13 +1,13 @@
 let num=12;
-let factors = 0;
+let count = 0;
 for(let i=0;i<num;i++){
-	if(i%num == 0){
+	if(num%2 == 0){
 		count++;
 	}
 }
-if(count = 2){
-	console.log("Yes");
+if(count == 2){
+	console.log("Prime");
 }
 else{
-	console.log("No");
+	console.log("Not Prime");
 }
